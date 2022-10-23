@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.navbar-component {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    /* background-color: green; */
+}
+
+.navbar-component > .nav-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-component > .nav-logo-container > .netflix-logo {
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+.navbar-component > .nav-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-component > .nav-btn-container > .signup-btn {
+    margin-right: 50px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background-color: #e50914;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px 10px;
+}
+
+/* HOME LINE */
+.home-line {
+    width: 100%;
+    height: 12px;
+    background-color: rgb(57, 56, 56);
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.subscribe > .subscription-text {
+    padding: 0px 70px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.input-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-btn-container > .first-home-section-input {
+    padding: 20px 10px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.input-btn-container > .first-home-section-input:focus {
+    outline: none;
+}
+
+.input-btn-container > .first-home-section-btn {
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e50914;
+}
+
+
+/* HOME PAGE */
+.home {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.first-home-section {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-home-section > .text-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 30px;
+}
+
+.text-input-container > p {
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.text-input-container > .first-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.text-input-container > .second-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.text-input-container > .third-text {
+    padding: 0px 70px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.input-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-btn-container > .first-home-section-input {
+    padding: 20px 10px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.input-btn-container > .first-home-section-input:focus {
+    outline: none;
+}
+
+.input-btn-container > .first-home-section-btn {
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e50914;
+}
+
+.second-home-section {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+
+.second-home-section > .first-text {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.second-home-section > .second-text {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+
+.third-home-section {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+
+.third-home-section > .first-text {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.third-home-section > .second-text {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.fourth-home-section {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+
+.fourth-home-section > .first-text {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.fourth-home-section > .second-text {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.fifth-home-section {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+
+.fifth-home-section > .first-text {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.fifth-home-section > .second-text {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.sixth-home-section {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.sixth-home-section > .first-text {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.sixth-home-section > .frequent-question-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.frequent-question-container > .each-question-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.each-question-container > .each-question {
+    background-color: rgb(57, 56, 56);
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.each-question > .question {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.each-question > .icon {
+    font-size: 1.3rem;
+    color: #fff;
+}
+.each-question-container > .answer {
+    background-color: rgb(57, 56, 56);
+    height: auto;
+    padding: 20px;
+    margin-top: 5px;
+    display: none;
+}
+
+.each-question-container > .answer > p {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+@media only screen and (min-width: 610px) {
+    .navbar-component > .nav-logo-container > .netflix-logo {
+        height: 120px;
+        margin-left: 50px;
+    }
+
+    .navbar-component > .nav-btn-container > .signup-btn {
+        padding: 10px 17px;
+    }
+
+
+    /* HOME PAGE */
+    .first-home-section {
+        height: 100%;
+    }
+
+    .first-home-section > .text-input-container {
+        padding-top: 120px;
+    }
+
+    .text-input-container > .first-text {
+        font-size: 3.8rem;
+    }
+    
+    .text-input-container > .second-text {
+        font-size: 1.8rem;
+    }
+    
+    .text-input-container > .third-text {
+        padding: 0px 70px;
+        font-size: 1.5rem;
+        width: 700px;
+    }
+
+    .input-btn-container > .first-home-section-input {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 675px) {
+    .text-input-container > .first-text {
+        font-size: 3rem;
+        width: 600px;
+    }
+
+    .input-btn-container > .first-home-section-input {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1056px) {
+
+    .first-home-section > .text-input-container {
+        padding-top: 150px;
+    }
+
+    .text-input-container > .second-text {
+        margin-bottom: 50px;
+    }
+
+    .text-input-container > .third-text {
+        width: 100%;
+    }
+
+    .input-btn-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .input-btn-container > .first-home-section-input {
+        width: 50%;
+        height: 70px;
+        margin: 0%;
+    }
+
+    .input-btn-container > .first-home-section-btn {
+        padding: 20px 30px;
+        height: 70px;
+        font-size: 24px;
+        border-radius: 0px;
+    }
+}
