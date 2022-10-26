@@ -263,7 +263,7 @@ body {
     margin-bottom: 10px;
 }
 
-.each-question-container > .each-question {
+.each-question {
     background-color: rgb(57, 56, 56);
     display: flex;
     font-size: 18px;
@@ -315,8 +315,8 @@ body {
     }
         
     .subscription-input-btn > .subscription-input {
-        width: 60%;
-        padding: 20px 10px;
+        width: 80%;
+        padding: 15px 10px;
     }
 
     /* HOME PAGE */
@@ -362,9 +362,24 @@ body {
     .frequent-question-container {
         padding: 0px 70px;
     }
+
+    .each-question > .question {
+        font-size: 1.5rem;
+    }
+    
+    .each-question > .icon {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 675px) {
+
+    .subscription-input-btn > .subscription-input {
+        width: 70%;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+    }
+
     .text-input-container > .first-text {
         font-size: 3rem;
         width: 600px;
@@ -411,6 +426,30 @@ body {
 }
 
 @media only screen and (min-width: 1056px) {
+    
+    .subscribe > .subscription-text {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .subscription-input-btn {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .subscription-input-btn > .subscription-input {
+        width: 50%;
+        height: 70px;
+        margin: 0;
+    }
+    
+    .subscription-input-btn > .subscription-btn {
+        padding: 20px 30px;
+        height: 70px;
+        font-size: 24px;
+        border-radius: 0px;
+    }
 
     .first-home-section > .text-input-container {
         padding-top: 150px;
@@ -530,7 +569,19 @@ body {
     }
 
     .frequent-question-container {
-        padding: 0px 200px;
+        padding: 0px 180px;
         margin-bottom: 50px;
+    }
+
+    .each-question {
+        height: 80px;
+    }
+
+    .each-question > .question {
+        font-size: 2rem;
+    }
+    
+    .each-question > .icon {
+        font-size: 2rem;
     }
 }

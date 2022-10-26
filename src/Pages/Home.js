@@ -132,7 +132,28 @@ const Home = ()=> {
                 </div>
                 <Subsciption />
             </section>
+            <HomeLine />
+
+            <footer className="footer">
+                <p></p>
+                <div className="link-container">
+                    <ul className="first">
+                        <li><a>FAQ</a></li>
+                        <li><a>Investor Relations</a></li>
+                        <li><a>Privacy</a></li>
+                        <li><a>Speed Test</a></li>
+                    </ul>
+
+                    <ul className="first">
+                        <li><a>Help Center</a></li>
+                        <li><a>Jobs</a></li>
+                        <li><a>Cookie Preferences</a></li>
+                        <li><a>Legal Notices</a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
+        
     )
 }
 
