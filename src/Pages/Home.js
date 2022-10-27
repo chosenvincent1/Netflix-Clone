@@ -135,22 +135,33 @@ const Home = ()=> {
             <HomeLine />
 
             <footer className="footer">
-                <p></p>
+                <p>Questions? Contact Us</p>
                 <div className="link-container">
                     <ul className="first">
-                        <li><a>FAQ</a></li>
-                        <li><a>Investor Relations</a></li>
-                        <li><a>Privacy</a></li>
-                        <li><a>Speed Test</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Media Center</a></li>
+                        <li><a href="">Ways to Watch</a></li>
+                        <li><a href="">Cookie Preferences</a></li>
+                        <li><a href="">Speed Test</a></li>
                     </ul>
 
-                    <ul className="first">
-                        <li><a>Help Center</a></li>
-                        <li><a>Jobs</a></li>
-                        <li><a>Cookie Preferences</a></li>
-                        <li><a>Legal Notices</a></li>
+                    <ul className="second">
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">Investor Relations</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Coporate Information</a></li>
+                        <li><a href="">Legal Notices</a></li>
+                    </ul>
+
+                    <ul className="third">
+                        <li><a href="">Account</a></li>
+                        <li><a href="">Jobs </a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Only on Netflix</a></li>
                     </ul>
                 </div>
+                <p>Nigeria Netflix</p>
             </footer>
         </div>
         
