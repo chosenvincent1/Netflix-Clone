@@ -23,6 +23,11 @@ const Signin = ()=> {
 
                     <p className='help'>Need help?</p>
                 </div>
+                <div className='signup-link-container'>
+                    <p>New to Netflix?</p>
+                    <a href='' className='signup-link'>Sign up now</a>
+                </div>
+                <p className='google-recaptcha'>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href='' className='learn-more'>Learn more.</a></p>
             </form>
             <footer className='signin-footer'>
 
